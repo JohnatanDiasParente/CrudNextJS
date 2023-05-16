@@ -1,2 +1,2 @@
 # CrudNextJS
- CRUD in NExtSJ
+ CRUD in NExtSJ and sass
