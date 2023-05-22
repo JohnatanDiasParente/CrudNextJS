@@ -13,7 +13,7 @@ export default function Home() {
   const [telefone, setTelefone] = useState("");
   const [descricao, setDescricao] = useState("");
 
-  console.log(nome, email, telefone, descricao);
+  //console.log(nome, email, telefone, descricao);
 
   function gravar(event: FormEvent) {
     event.preventDefault(); //Previne que a página seja recarregada
@@ -61,15 +61,15 @@ export default function Home() {
           <input type="text" placeholder="Buscar" />
           <div className={styles.contacts}>
             <div className={styles.boxtitle}>
-              <p className={styles.nome}>NomeDaPessoa</p>
+              <p className={styles.nome}>Nome Da Pessoa</p>
               <div>
                 <a href="">Edit</a>
                 <a href="">Delete</a>
               </div>
             </div>
             <div className={styles.info}>
-              <p>EmailDaPessoa</p>
-              <p>TelefoneDaPessoa</p>
+              <p>Email Da Pessoa</p>
+              <p>Telefone Da Pessoa</p>
               <p>Descrição</p>
             </div>
           </div>
