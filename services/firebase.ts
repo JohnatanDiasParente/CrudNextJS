@@ -3,19 +3,19 @@ import 'firebase/database'
 
 const firebaseConfig = {
     
-    apiKey: "AIzaSyAgbwhP98wHKCrwoinSihIPJaSE_Ba4FtM",
+    apiKey:  process.env.API_KEY,
 
-    authDomain: "agendanext-943ad.firebaseapp.com",
+    authDomain: process.env.AUTHDOMAIN,
   
-    databaseURL: "https://agendanext-943ad-default-rtdb.firebaseio.com",
+    databaseURL:  process.env.DATABASE_URL,
+
+    projectId: process.env.PROJECT_ID,
   
-    projectId: "agendanext-943ad",
+    storageBucket: process.env.STORAGE_BUCKET,
   
-    storageBucket: "agendanext-943ad.appspot.com",
+    messagingSenderId: process.env.MESSAGING_SENDER_ID,
   
-    messagingSenderId: "60592375316",
-  
-    appId: "1:60592375316:web:29d2a8f982a7d9bae3c901"
+    appId: process.env.APP_ID,
 };
 
 if(!firebase.apps.length){
