@@ -5,7 +5,7 @@ const firebaseConfig = {
     
     apiKey:  process.env.API_KEY,
 
-    authDomain: process.env.AUTHDOMAIN,
+    authDomain: process.env.AUTH_DOMAIN,
   
     databaseURL:  process.env.DATABASE_URL,
 
