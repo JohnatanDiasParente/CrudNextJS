@@ -13,7 +13,7 @@ export default function Home() {
   const [telefone, setTelefone] = useState("");
   const [descricao, setDescricao] = useState("");
 
-  //console.log(nome, email, telefone, descricao);
+  console.log(nome, email, telefone, descricao);
 
   function gravar(event: FormEvent) {
     event.preventDefault(); //Previne que a página seja recarregada
