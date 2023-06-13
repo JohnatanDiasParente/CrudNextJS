@@ -11,12 +11,15 @@
   --color-blue1: rgb(8, 107, 187);
   --color-grey1: rgb(66, 73, 73);
 }
+
+
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-
+ 
   form {
     width: 31rem;
     margin: 1rem;
@@ -83,6 +86,7 @@
       font-weight: bold;
     }
 
+
     .boxtitle {
       display: flex;
       justify-content: space-between;
@@ -93,9 +97,14 @@
       }
 
       a {
-        color: rgb(184, 40, 35);
+        color: #fafef6;
         cursor: pointer;
         margin-left: 0.5rem;
+        background-color: #5596d8;
+        border-radius: 10%;
+        outline: none;
+        font-family: fantasy;
+        padding: 0.5rem;
 
         &:hover {
           font-weight: bold;
